@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  width: 98vw;
 }
 
 a {
@@ -18,4 +19,47 @@ form {
 
 .btn-round {
   margin: 20px;
+}
+
+nav {
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#id {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.home-links {
+  width: 100%;
+  height: 30vh;
+}
+
+.home-links > h1, p {
+  margin: 0% 5%
+}
+
+.home-links > img {
+  width: 100%;
+  height: 20vh;
+}
+
+.all {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.all img {
+  height: 20vh;
+}
+
+.detail-image {
+  height: 30vh
 }
